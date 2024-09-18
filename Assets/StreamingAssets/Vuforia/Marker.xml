@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="1010" size="0.100000 0.100000"/>
+        <ImageTarget name="11" size="0.100000 0.100000"/>
+        <ImageTarget name="Cuboid2_Back2" size="0.010000 0.010000"/>
+        <ImageTarget name="Cuboid2_Front2" size="0.010000 0.010000"/>
+        <ImageTarget name="Cuboid2_Right2" size="0.020000 0.020000"/>
+        <ImageTarget name="Cuboid2_Left2" size="0.020000 0.020000"/>
+        <ImageTarget name="Cuboid2_Bottom2" size="0.030000 0.030000"/>
+        <ImageTarget name="Cuboid2_Top2" size="0.030000 0.030000"/>
+        <ImageTarget name="Marker1" size="0.050000 0.050000"/>
+        <ImageTarget name="Marker2" size="0.050000 0.050000"/>
+        <ImageTarget name="Cuboid.Left" size="0.050000 0.050000"/>
+        <ImageTarget name="Cuboid.Back" size="0.050000 0.050000"/>
+        <ImageTarget name="Cuboid.Top" size="0.050000 0.050000"/>
+        <ImageTarget name="Cuboid.Right" size="0.050000 0.050000"/>
+        <ImageTarget name="Cuboid.Bottom" size="0.050000 0.050000"/>
+        <ImageTarget name="Cuboid.Front" size="0.050000 0.050000"/>
+        <MultiTarget name="Cuboid1">
+            <Part name="Cuboid.Left" translation="-0.02500000037252903 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Cuboid.Right" translation="0.02500000037252903 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Cuboid.Front" translation="0 0 0.02500000037252903" rotation="AD: 1 0 0 0"/>
+            <Part name="Cuboid.Back" translation="0 0 -0.02500000037252903" rotation="AD: 0 1 0 180"/>
+            <Part name="Cuboid.Top" translation="0 0.02500000037252903 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Cuboid.Bottom" translation="0 -0.02500000037252903 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
